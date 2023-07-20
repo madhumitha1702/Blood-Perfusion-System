@@ -1,0 +1,83 @@
+body{
+
+}
+.cont{
+    padding-top: 40px;
+    text-align: justify;
+    font-size: 1em;
+}
+
+.fas{
+    color: #5851DB; 
+}
+
+.card ,nav, .footer,tr,video{
+    border-radius: 3px;
+    transition: all 200ms ease-out;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
+}
+
+tr,th,td{
+    border:0.1px solid silver;
+    text-align: center;
+}
+
+.nav-item{
+margin-left: 10px; 
+}
+
+.navbar-brand{
+    text-shadow: 1px 1px 2px red, 0 0 50px black, 0 0 5px white;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 1.7em;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.brand{
+    text-shadow: 1px 1px 2px red, 0 0 50px black, 0 0 5px white;
+}
+
+.rounded-circle{
+    margin-top: -2.5px;
+}
+
+.card-header{
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.dark-mode {
+  background-color: black;
+  color: black;
+}
+
+form{
+    padding-top: 20px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.footer{
+    padding: 14px;
+}
+
+.alert{
+    border:1px solid #5cb85c;
+    border-left: 5px solid #5cb85c;
+    border-right: 5px solid #5cb85c;
+}
+
+.error{
+    border:1px solid red;
+    border-left: 5px solid red;
+    border-right: 5px solid red;
+}
+
